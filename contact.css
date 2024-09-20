@@ -1,0 +1,20 @@
+body {
+    background-color: #fcf6f603; 
+}
+
+.text-white {
+    color: white; 
+}
+
+.card-body {
+    background-color: #f4e8e819; 
+    border-radius: 10px; 
+    padding: 20px; 
+}
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    flex-direction: column; 
+}

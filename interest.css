@@ -1,0 +1,54 @@
+body {
+    background-color: white; 
+    color: white;
+}
+
+.container {
+    background-color: #b6b0b000;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.topic h1 {
+    font-size: 1.75rem; 
+    margin-bottom: 1rem; 
+    color: white; 
+}
+
+.topic h3 {
+    font-size: 1.25rem; 
+    color: white; 
+}
+
+.icon {
+    color: #f2f3fb; 
+}
+
+a {
+    color: white; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+.list-unstyled {
+    padding-left: 0; 
+}
+
+.list-unstyled li {
+    list-style-type: none ; 
+    padding: 0.5rem 0; 
+}
+
+
+@media (max-width: 576px) {
+    .topic h1 {
+        font-size: 1.5rem; 
+    }
+
+    .topic h3 {
+        font-size: 1.1rem; 
+    }
+}
